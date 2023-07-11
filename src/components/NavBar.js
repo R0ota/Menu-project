@@ -1,8 +1,6 @@
 import React , {useState} from 'react' 
 import { Navbar, Container, Form, Nav, Row } from 'react-bootstrap';
 
-
-
 const NavBar = ({FilterBysearch}) => {
   const [searchValue, setsearchValue] = useState("")
   const onsearch =(e) => {

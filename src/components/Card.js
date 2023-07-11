@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Row , Col ,Card} from 'react-bootstrap';
 import { Zoom } from 'react-reveal';
  const CardLists = ({itemData}) => {
